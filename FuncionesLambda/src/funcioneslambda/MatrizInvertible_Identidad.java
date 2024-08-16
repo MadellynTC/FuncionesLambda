@@ -223,7 +223,7 @@ public class MatrizInvertible_Identidad extends javax.swing.JFrame {
         mostrarMatriz(inversa, tblMatriz1);
         JOptionPane.showMessageDialog(this, "Matriz inversa calculada correctamente.");
     } catch (Exception e) {
-        JOptionPane.showMessageDialog(this, "Error: Verifique que todos los campos estén llenos y que no haya caracteres no válidos.");
+        JOptionPane.showMessageDialog(this, "Error: Verifique que todos los campos esten llenos y que no haya caracteres no validos.");
       }
     }//GEN-LAST:event_btnAgregarActionPerformed
 
@@ -271,7 +271,7 @@ public class MatrizInvertible_Identidad extends javax.swing.JFrame {
             txtInvertible.setText("No Invertible");
         }
     } catch (Exception e) {
-        JOptionPane.showMessageDialog(this, "Error: Verifique que todos los campos estén llenos y que no haya caracteres no válidos.");
+        JOptionPane.showMessageDialog(this, "Error: Verifique que todos los campos esten llenos y que no haya caracteres no validos.");
     }     
     }//GEN-LAST:event_btnVerfInvertActionPerformed
     private boolean esMatrizIdentidad(double[][] matriz) {
@@ -371,3 +371,4 @@ public class MatrizInvertible_Identidad extends javax.swing.JFrame {
     private javax.swing.JTextField txtInvertible;
     // End of variables declaration//GEN-END:variables
 }
+
